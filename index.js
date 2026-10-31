@@ -15,7 +15,7 @@ client.once('ready', () => {
 client.on('messageCreate', async (message) => {
   if (message.author.bot) return;
   try {
-    await message.react('💓');
+    await message.react('💗');
   } catch (err) {
     console.error(err);
   }
